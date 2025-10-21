@@ -1,0 +1,1 @@
+{"root":["./src/home.tsx","./src/main.tsx","./src/grid/grid.tsx","./src/grid/interfaces.ts","./src/sections/gallerysection.tsx","./src/sections/mapsection.tsx","./src/sections/specssection.tsx","./src/sections/statssection.tsx"],"errors":true,"version":"5.9.3"}
