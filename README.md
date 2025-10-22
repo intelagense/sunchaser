@@ -20,13 +20,10 @@ Core Features
 
 ## 🛠️ Kendo React Components Used
 
-### Layout Components (6)
+### Layout Components (3)
 - `Card` - Main container components
-- `CardBody` - Card content areas
-- `CardTitle` - Card headings
-- `CardHeader` - Card header sections
 - `StackLayout` - Responsive layout system
-- `ListView` - Data display component
+- `AppBar` & `AppBarSection` - Navigation header
 
 ### Chart Components (9)
 - `Chart` - Main chart container
@@ -39,8 +36,9 @@ Core Features
 - `ChartTitle` - Chart titles
 - `ChartLegend` - Chart legends
 
-### Input Components (2)
+### Input Components (3)
 - `TextBox` - Form input fields
+- `TextArea` - Multi-line text inputs
 - `Label` - Form labels
 
 ### Button Components (1)
@@ -49,4 +47,11 @@ Core Features
 ### Progress Components (1)
 - `ProgressBar` - Solar efficiency visualization
 
-**Total: 19 unique Kendo React components** across 6 different packages
+### Form Components (5)
+- `Form` - Form container
+- `Field` - Form field wrapper
+- `FormElement` - Form structure
+- `FormRenderProps` - Form state management
+- `FieldWrapper` - Field styling wrapper
+
+**Total: 22 unique Kendo React components** across 8 different packages
