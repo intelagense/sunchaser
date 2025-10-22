@@ -65,7 +65,7 @@ export default function AboutSectionComponent() {
                 lineHeight: '1.6',
                 margin: '0 0 20px 0'
               }}>
-                My 2002 Chevy Astro van runs a full server setup powered by solar panels and battery storage. I work remotely from anywhere with cell service - no generator noise, no fuel costs, just clean power from the sun.
+                This is my 2002 Chevy Astro van(not pictured). It runs a full server setup powered by a solar panel and 2400Wh backup battery storage. It also has a sleeping bag. I can park this anywhere and take a nap or get some work done.
               </p>
 
               <p style={{
@@ -76,7 +76,7 @@ export default function AboutSectionComponent() {
                 lineHeight: '1.6',
                 margin: '0'
               }}>
-                Built this for the freedom to work where I want while staying connected. The solar setup handles all my development work, and I've got monitoring so I know everything's running smooth.
+                I had the idea to run a full web server after reading <a href="https://solar.lowtechmagazine.com/">LOW←TECH MAGAZINE</a> and wanted to see if it was possible to make a "mobile inspired" version, lawl.
               </p>
             </div>
           </StackLayout>
