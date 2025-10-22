@@ -25,3 +25,6 @@ dist-ssr
 
 telerik-license.txt
 .env
+
+# Local Netlify folder
+.netlify
