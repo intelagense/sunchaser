@@ -48,7 +48,7 @@ export default function AboutSectionComponent() {
             }}>
               <h2 style={{
                 fontSize: '2rem',
-                fontFamily: 'Poppins, "Segoe UI", system-ui, sans-serif',
+                fontFamily: 'system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif',
                 fontWeight: '600',
                 color: '#2B211D',
                 margin: '0 0 20px 0',
@@ -59,7 +59,7 @@ export default function AboutSectionComponent() {
 
               <p style={{
                 fontSize: '1.1rem',
-                fontFamily: 'Poppins, "Segoe UI", system-ui, sans-serif',
+                fontFamily: 'system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif',
                 fontWeight: '400',
                 color: '#5B504B',
                 lineHeight: '1.6',
@@ -70,7 +70,7 @@ export default function AboutSectionComponent() {
 
               <p style={{
                 fontSize: '1.1rem',
-                fontFamily: 'Poppins, "Segoe UI", system-ui, sans-serif',
+                fontFamily: 'system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif',
                 fontWeight: '400',
                 color: '#5B504B',
                 lineHeight: '1.6',

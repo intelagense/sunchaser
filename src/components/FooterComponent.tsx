@@ -182,7 +182,7 @@ export default function FooterComponent() {
             <h3 style={{
               margin: '0 0 8px 0',
               fontSize: '1.1rem',
-              fontFamily: 'Poppins, "Segoe UI", system-ui, sans-serif',
+              fontFamily: 'system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif',
               fontWeight: '600',
               color: '#2B211D'
             }}>
@@ -191,7 +191,7 @@ export default function FooterComponent() {
             <p style={{
               margin: '0 auto 20px auto',
               fontSize: '0.9rem',
-              fontFamily: 'Poppins, "Segoe UI", system-ui, sans-serif',
+              fontFamily: 'system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif',
               color: '#6B5F5B',
               maxWidth: '400px'
             }}>
@@ -237,7 +237,7 @@ export default function FooterComponent() {
                       color: 'white',
                       padding: '10px 24px',
                       borderRadius: '6px',
-                      fontFamily: 'Poppins, "Segoe UI", system-ui, sans-serif',
+                      fontFamily: 'system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif',
                       fontWeight: '500',
                       fontSize: '0.9rem'
                     }}
@@ -256,7 +256,7 @@ export default function FooterComponent() {
           }}>
             <p style={{
               margin: 0,
-              fontFamily: 'Poppins, "Segoe UI", system-ui, sans-serif',
+              fontFamily: 'system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif',
               color: '#8B7F7B',
               fontSize: '0.8rem'
             }}>

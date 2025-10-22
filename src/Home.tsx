@@ -45,7 +45,7 @@ export default function Home() {
                     <h3 style={{
                       margin: '0 0 16px 0',
                       fontSize: '1.3rem',
-                      fontFamily: 'Poppins, "Segoe UI", system-ui, sans-serif',
+                      fontFamily: 'system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif',
                       fontWeight: '600',
                       color: '#2B211D'
                     }}>
@@ -65,7 +65,7 @@ export default function Home() {
                     <h3 style={{
                       margin: '0 0 16px 0',
                       fontSize: '1.3rem',
-                      fontFamily: 'Poppins, "Segoe UI", system-ui, sans-serif',
+                      fontFamily: 'system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif',
                       fontWeight: '600',
                       color: '#2B211D'
                     }}>
@@ -85,7 +85,7 @@ export default function Home() {
                     <h3 style={{
                       margin: '0 0 16px 0',
                       fontSize: '1.3rem',
-                      fontFamily: 'Poppins, "Segoe UI", system-ui, sans-serif',
+                      fontFamily: 'system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif',
                       fontWeight: '600',
                       color: '#2B211D'
                     }}>
@@ -105,7 +105,7 @@ export default function Home() {
                     <h3 style={{
                       margin: '0 0 16px 0',
                       fontSize: '1.3rem',
-                      fontFamily: 'Poppins, "Segoe UI", system-ui, sans-serif',
+                      fontFamily: 'system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif',
                       fontWeight: '600',
                       color: '#2B211D'
                     }}>
@@ -130,7 +130,7 @@ export default function Home() {
                       <h3 style={{
                         margin: '0 0 16px 0',
                         fontSize: '1.3rem',
-                        fontFamily: 'Poppins, "Segoe UI", system-ui, sans-serif',
+                        fontFamily: 'system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif',
                         fontWeight: '600',
                         color: '#2B211D'
                       }}>
@@ -151,7 +151,7 @@ export default function Home() {
                       <h3 style={{
                         margin: '0 0 16px 0',
                         fontSize: '1.3rem',
-                        fontFamily: 'Poppins, "Segoe UI", system-ui, sans-serif',
+                        fontFamily: 'system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif',
                         fontWeight: '600',
                         color: '#2B211D'
                       }}>
@@ -174,7 +174,7 @@ export default function Home() {
                       <h3 style={{
                         margin: '0 0 16px 0',
                         fontSize: '1.3rem',
-                        fontFamily: 'Poppins, "Segoe UI", system-ui, sans-serif',
+                        fontFamily: 'system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif',
                         fontWeight: '600',
                         color: '#2B211D'
                       }}>
@@ -195,7 +195,7 @@ export default function Home() {
                       <h3 style={{
                         margin: '0 0 16px 0',
                         fontSize: '1.3rem',
-                        fontFamily: 'Poppins, "Segoe UI", system-ui, sans-serif',
+                        fontFamily: 'system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif',
                         fontWeight: '600',
                         color: '#2B211D'
                       }}>

@@ -27,7 +27,7 @@ export default function HeaderComponent() {
             style={{ 
               margin: 0,
               fontSize: '2.2rem',
-              fontFamily: 'Poppins, "Segoe UI", system-ui, sans-serif',
+              fontFamily: 'system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif',
               fontWeight: '300',
               color: '#FFFFFF',
               lineHeight: '1.1',
@@ -41,7 +41,7 @@ export default function HeaderComponent() {
             style={{ 
               margin: 0,
               fontSize: '1rem',
-              fontFamily: 'Poppins, "Segoe UI", system-ui, sans-serif',
+              fontFamily: 'system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif',
               fontWeight: '600',
               color: '#FF9E3D',
               fontStyle: 'italic',

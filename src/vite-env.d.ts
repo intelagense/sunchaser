@@ -1,7 +1,7 @@
 /// <reference types="vite/client" />
 
 interface ImportMetaEnv {
-  readonly KENDO_UI_LICENSE?: string
+  readonly TELERIK_LICENSE?: string
   // more env variables...
 }
 

@@ -2,8 +2,8 @@
    SUN CHASER - CUSTOM STYLES
    ======================================== */
 
-/* Import better Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700;800&display=swap');
+/* Google Fonts import removed to prevent 504 errors in incognito mode */
+/* App uses system fonts as fallback: 'Segoe UI', system-ui, -apple-system, sans-serif */
 
 /* Reset browser defaults */
 * {
@@ -14,7 +14,7 @@ html, body {
   margin: 0;
   padding: 0;
   min-width: 320px;
-  font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 }
 
 /* Ensure body has no default margin */
@@ -22,7 +22,7 @@ body {
   margin: 0 !important;
   background: #FCFCFB;
   min-height: 100vh;
-  font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 }
 
 /* ========================================

@@ -4,8 +4,13 @@ import Home from './Home.tsx'
 import '@progress/kendo-theme-material/dist/material-nova.css'
 import './index.css'
 
-// Kendo license is handled by the KENDO_UI_LICENSE environment variable during build
-// The license key should be set in Netlify as KENDO_UI_LICENSE
+// Set Telerik license from environment variable
+const license = (import.meta as any).env?.TELERIK_LICENSE
+if (license) {
+  // @ts-ignore - Telerik license setup
+  ;(window as any).kendo = (window as any).kendo || {}
+  ;(window as any).kendo.licenseKey = license
+}
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>

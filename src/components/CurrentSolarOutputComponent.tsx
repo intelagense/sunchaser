@@ -28,7 +28,7 @@ export default function CurrentSolarOutputComponent() {
           flex: '1'
         }}>
           <span style={{
-            fontFamily: 'Poppins, "Segoe UI", system-ui, sans-serif',
+            fontFamily: 'system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif',
             fontWeight: '500',
             color: '#5B504B',
             fontSize: '0.9rem'
@@ -36,7 +36,7 @@ export default function CurrentSolarOutputComponent() {
             {dataItem.label}
           </span>
           <span style={{
-            fontFamily: 'Poppins, "Segoe UI", system-ui, sans-serif',
+            fontFamily: 'system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif',
             fontWeight: '600',
             color: '#2B211D',
             fontSize: '0.95rem'
@@ -58,7 +58,7 @@ export default function CurrentSolarOutputComponent() {
       }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px' }}>
           <span style={{
-            fontFamily: 'Poppins, "Segoe UI", system-ui, sans-serif',
+            fontFamily: 'system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif',
             fontWeight: '500',
             color: '#5B504B',
             fontSize: '0.9rem'
@@ -66,7 +66,7 @@ export default function CurrentSolarOutputComponent() {
             Battery Remaining
           </span>
           <span style={{
-            fontFamily: 'Poppins, "Segoe UI", system-ui, sans-serif',
+            fontFamily: 'system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif',
             fontWeight: '600',
             color: '#2B211D',
             fontSize: '0.95rem'
