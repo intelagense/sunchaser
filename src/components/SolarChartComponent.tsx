@@ -1,5 +1,4 @@
 import { Chart, ChartSeries, ChartSeriesItem, ChartCategoryAxis, ChartCategoryAxisItem, ChartValueAxis, ChartValueAxisItem, ChartTitle, ChartLegend } from "@progress/kendo-react-charts";
-import { Card, CardBody, CardTitle, CardHeader } from '@progress/kendo-react-layout';
 
 // Move data outside component to prevent re-rendering
 const solarBatteryData = [
@@ -16,37 +15,30 @@ const solarBatteryData = [
 
 export default function SolarChartComponent() {
   return (
-    <Card>
-      <CardHeader>
-        <CardTitle>💀 Solar Death Countdown</CardTitle>
-      </CardHeader>
-      <CardBody>
-        <div>
-          <Chart>
-            <ChartTitle text="Countdown to Van Death: Solar Life Support" />
-            <ChartLegend position="bottom" />
-            <ChartCategoryAxis>
-              <ChartCategoryAxisItem categories={solarBatteryData.map(d => d.time)} />
-            </ChartCategoryAxis>
-            <ChartValueAxis>
-              <ChartValueAxisItem min={0} max={100} />
-            </ChartValueAxis>
-            <ChartSeries>
-              <ChartSeriesItem 
-                type="line" 
-                data={solarBatteryData.map(d => d.battery)}
-                name="Battery Level (%)"
-                markers={{ visible: true }}
-              />
-              <ChartSeriesItem 
-                type="column" 
-                data={solarBatteryData.map(d => d.charging)}
-                name="Charging Power (W)"
-              />
-            </ChartSeries>
-          </Chart>
-        </div>
-      </CardBody>
-    </Card>
+    <div style={{ width: '100%', height: '100%' }}>
+      <Chart style={{ width: '100%', height: '100%' }}>
+        <ChartTitle text="Countdown to Van Death: Solar Life Support" />
+        <ChartLegend position="bottom" />
+        <ChartCategoryAxis>
+          <ChartCategoryAxisItem categories={solarBatteryData.map(d => d.time)} />
+        </ChartCategoryAxis>
+        <ChartValueAxis>
+          <ChartValueAxisItem min={0} max={100} />
+        </ChartValueAxis>
+        <ChartSeries>
+          <ChartSeriesItem 
+            type="line" 
+            data={solarBatteryData.map(d => d.battery)}
+            name="Battery Level (%)"
+            markers={{ visible: true }}
+          />
+          <ChartSeriesItem 
+            type="column" 
+            data={solarBatteryData.map(d => d.charging)}
+            name="Charging Power (W)"
+          />
+        </ChartSeries>
+      </Chart>
+    </div>
   );
 }

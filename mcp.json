@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "kendo-react-assistant": {
+      "command": "npx",
+      "args": ["-y", "@progress/kendo-react-mcp"],
+      "env": {
+        "TELERIK_LICENSE_PATH": "./telerik-license.txt"
+      }
+    }
+  }
+}
