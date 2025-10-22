@@ -2,7 +2,7 @@
 
 ![Sun Chaser Dashboard](public/screenshot.png)
 
-Sun Chaser is a web dashboard created during the [MagnoliaConf Hackathon](https://magnoliaconf.com/), where it **won 3rd place** 🥉🥰! Built with React, Vite, and KendoReact, it's the first working version of a larger art-tech project: a van outfitted with a solar-powered webserver and GPS adventure logging.
+Sun Chaser is a web dashboard created during the [MagnoliaConf Hackathon](https://magnoliaconf.com/), where it **won 3rd place!** 🥉🥰 Built with React, Vite, and KendoReact, it's the first working version of a larger art-tech project: a van outfitted with a solar-powered webserver and GPS adventure logging.
 
 ## 🙏 Acknowledgments
 
