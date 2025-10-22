@@ -9,14 +9,14 @@ Sun Chaser is a web dashboard created during the [MagnoliaConf Hackathon](https:
 Thanks to [MagnoliaConf](https://2025.magnoliaconf.com/) and [Progress](https://www.progress.com/) for giving me an excuse to make another one of my @TODO side projects possible!
 
 Core Features
-	•	Interactive map showing the van's route and general location (well there is a map)
-	•	Live stats on solar output, uptime, and travel metrics (no)
-	•	Build details and technical notes on the van and server setup (nah)
-	•	Photo gallery and travel log from the road (nope)
-	•	Dynamic data grid and charts powered by KendoReact (yep, mostly)
-	•	Sensor readings streamed from the onboard system (nope)
-	•	Customizable dashboard views and UI experiments (eh)
-	•	Reflections on digital nomadism and creative tech (nah)
+- Interactive map showing the van's route and general location (well there is a map)
+- Live stats on solar output, uptime, and travel metrics (no)
+- Build details and technical notes on the van and server setup (nah)
+- Photo gallery and travel log from the road (nope)
+- Dynamic data grid and charts powered by KendoReact (yep, mostly)
+- Sensor readings streamed from the onboard system (nope)
+- Customizable dashboard views and UI experiments (eh)
+- Reflections on digital nomadism and creative tech (nah)
 
 ## 🛠️ Kendo React Components Used
 
