@@ -17,11 +17,12 @@ interface FieldRenderProps {
   value?: any;
   onChange?: (value: any) => void;
   placeholder?: string;
+  onClick?: () => void;
   [key: string]: any;
 }
 
 const FormInput = (fieldRenderProps: FieldRenderProps) => {
-  const { validationMessage, touched, label, id, valid, disabled, hint, type, optional, placeholder, ...others } =
+  const { validationMessage, touched, label, id, valid, disabled, hint, type, optional, placeholder, onClick, ...others } =
     fieldRenderProps;
   const showValidationMessage = touched && validationMessage;
   const showHint = !showValidationMessage && hint;
@@ -45,6 +46,7 @@ const FormInput = (fieldRenderProps: FieldRenderProps) => {
           disabled={disabled}
           placeholder={placeholder}
           aria-describedby={`${hintId} ${errorId}`}
+          onClick={onClick}
           {...others}
         />
       </div>
@@ -53,7 +55,7 @@ const FormInput = (fieldRenderProps: FieldRenderProps) => {
 };
 
 const FormTextArea = (fieldRenderProps: FieldRenderProps) => {
-  const { validationMessage, touched, label, id, valid, hint, disabled, optional, placeholder, ...others } =
+  const { validationMessage, touched, label, id, valid, hint, disabled, optional, placeholder, onClick, ...others } =
     fieldRenderProps;
   const showValidationMessage = touched && validationMessage;
   const showHint = !showValidationMessage && hint;
@@ -71,6 +73,7 @@ const FormTextArea = (fieldRenderProps: FieldRenderProps) => {
           disabled={disabled}
           placeholder={placeholder}
           aria-describedby={`${hintId} ${errorId}`}
+          onClick={onClick}
           {...others}
         />
       </div>
@@ -79,7 +82,7 @@ const FormTextArea = (fieldRenderProps: FieldRenderProps) => {
 };
 
 const PhotoUpload = (fieldRenderProps: FieldRenderProps) => {
-  const { validationMessage, touched, label, id, valid, disabled, hint, optional, value, onChange, placeholder } =
+  const { validationMessage, touched, label, id, valid, disabled, hint, optional, value, onChange, placeholder, onClick } =
     fieldRenderProps;
   const showValidationMessage = touched && validationMessage;
   const showHint = !showValidationMessage && hint;
@@ -114,6 +117,7 @@ const PhotoUpload = (fieldRenderProps: FieldRenderProps) => {
           id={id}
           accept="image/*"
           onChange={handleFileChange}
+          onClick={onClick}
           disabled={disabled}
           placeholder={placeholder}
           aria-describedby={`${hintId} ${errorId}`}
@@ -136,7 +140,14 @@ const PhotoUpload = (fieldRenderProps: FieldRenderProps) => {
 };
 
 export default function FooterComponent() {
+  const handleFormInteraction = () => {
+    alert('🚧 Not working yet! Backend integration coming soon.');
+  };
+
   const handleSubmit = (dataItem: { [name: string]: any }) => {
+    handleFormInteraction();
+    return;
+
     if (dataItem.name && dataItem.message && dataItem.photo) {
       // Create guest book entry data
       const guestBookEntry = {
@@ -199,23 +210,27 @@ export default function FooterComponent() {
                   placeholder="love notes, hate mail, shopping lists, etc"
                   rows={2}
                   maxLength={200}
+                  onClick={handleFormInteraction}
                 />
                 <Field
                   name="name"
                   component={FormInput}
                   label="Signed"
                   placeholder="Maybe your name or @handle"
+                  onClick={handleFormInteraction}
                 />
                 <Field
                   name="photo"
                   component={PhotoUpload}
                   label="Picture (will be severely downscaled)"
                   required
+                  onClick={handleFormInteraction}
                 />
                 <div className="k-form-buttons" style={{ textAlign: 'center', marginTop: '16px' }}>
                   <Button
                     type="submit"
                     disabled={!formRenderProps.allowSubmit}
+                    onClick={handleFormInteraction}
                     style={{
                       backgroundColor: '#FF9E3D',
                       borderColor: '#FF9E3D',
