@@ -16,17 +16,18 @@ const markers = [
 export default function MapComponent() {
   return (
     <div style={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
-      <Map
-        center={center}
-        zoom={10}
-        zoomable={false}
-        pannable={false}
-        style={{ 
-          width: '100%', 
-          height: '300px',
-          borderRadius: '8px'
-        }}
-      >
+      <div style={{ pointerEvents: 'none' }}>
+        <Map
+          center={center}
+          zoom={10}
+          zoomable={false}
+          pannable={false}
+          style={{
+            width: '100%',
+            height: '300px',
+            borderRadius: '8px'
+          }}
+        >
         <MapLayers>
           <MapTileLayer
             urlTemplate={tileUrl}
@@ -39,7 +40,8 @@ export default function MapComponent() {
             titleField="title"
           />
         </MapLayers>
-      </Map>
+        </Map>
+      </div>
     </div>
   );
 }
